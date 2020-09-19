@@ -1,0 +1,2 @@
+2020-04-30 18:00:32  [ http-nio-8080-exec-9:0 ] - [ INFO ]  WRONGTYPE Operation against a key holding the wrong kind of value; nested exception is redis.clients.jedis.exceptions.JedisDataException: WRONGTYPE Operation against a key holding the wrong kind of value 
+2020-04-30 18:03:06  [ http-nio-8080-exec-9:0 ] - [ INFO ]  WRONGTYPE Operation against a key holding the wrong kind of value; nested exception is redis.clients.jedis.exceptions.JedisDataException: WRONGTYPE Operation against a key holding the wrong kind of value 

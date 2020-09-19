@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" class="hb-loaded" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="csrf-token" content="fwthi2kFGosUpy0roUsNrGHt9BFbH5Sg4lWFt72p">
+
+    <!-- 网站icon，来自于Google开源图标 -->
+    <link rel="icon" type="image/png" href="http://source.aicode.cc/favorite.png">
+
+    <title> 极客云</title>
+    <link rel="stylesheet" href="/static/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="/static/user_inp.css">
+</head>
+
+<body class="text-center" huaban_collector_injected="true">
+<div id="host" th:data-host="${Host}" data-host=""></div>
+<div class="win">
+    <div class="win_text"></div>
+</div>
+<div class="card" style="min-width: 500px;">
+    <div class="card-body">
+        <form class="form-signin" method="POST">
+
+            <h1 class="h3 mb-3 font-weight-normal">登录</h1>
+
+            <input type="hidden" name="_token" value="fwthi2kFGosUpy0roUsNrGHt9BFbH5Sg4lWFt72p">
+
+            <div class="text-left form-group bmd-form-group">
+                <div class="mms">
+                    <a></a>
+                    <div class="text_demo">111</div>
+                </div>
+                <label for="username" class="bmd-label-floating">账号</label>
+                <input id="username" type="text" class="form-control" onfocus="demo_fou(0)" name="username">
+
+            </div>
+
+            <div class="text-left form-group bmd-form-group">
+                <div class="mms">
+                    <a></a>
+                    <div class="text_demo">111</div>
+                </div>
+                <label for="password" class="bmd-label-floating">密码</label>
+                <input id="password" type="password" maxlength="16" class="form-control" onfocus="demo_fou(1)"
+                       name="password">
+            </div>
+            <div style="">
+                <div class="text-left form-group bmd-form-group " style="width: 180px; float: left">
+                    <div class="mms">
+                        <a></a>
+                        <div class="text_demo">111</div>
+                    </div>
+                    <label for="verification" class="bmd-label-floating">验证码</label>
+                    <input id="verification" type="text" maxlength="4" onfocus="demo_fou(2)" class="form-control"
+                           name="verification">
+                </div>
+                <img src="img" class="img-thumbnail" style="float: right; margin-top: 15px;" width="120" height="60">
+            </div>
+
+            <button type="button" id="butn" class="btn btn-lg btn-primary btn-block btn-raised">
+                登录
+            </button>
+
+            <a class="btn btn-link" href="/user/register">
+                注册账号 </a>
+
+            <a class="btn btn-link" href="/user/find">
+                找回密码?
+            </a>
+
+            <p class="mt-5 mb-3 text-muted"><a target="_blank" href="/user/updata_mudic">音乐上传</a></p>
+        </form>
+    </div>
+</div>
+
+<script src="/static/jquery.min.js"></script>
+
+<script src="/static/popper.js"></script>
+<script src="/static/bootstrap-material-design.js"></script>
+
+
+<script>
+    var is = true;
+    $(function () {
+
+        $('body').bootstrapMaterialDesign();
+        $(".img-thumbnail").on("click", function () {
+            $(".img-thumbnail").attr("src", "img?data=" + new Date())
+        })
+
+        $("#butn").on("click", function () {
+            let username = /^\d{8,12}$/;
+            let username1 = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/
+            let form = new FormData(document.getElementsByClassName("form-signin")[0]);
+            let str = form.get("username");
+            if (str == "") {
+                document.getElementsByClassName("mms")[0].setAttribute("class", "mms v-loact");
+                $(".text_demo:eq(0)").text("请输入账号");
+                is = false;
+            } else if (!username.test(str)) {
+                if (!username1.test(str)) {
+                    document.getElementsByClassName("mms")[0].setAttribute("class", "mms v-loact");
+                    $(".text_demo:eq(0)").text("请输入正确邮箱或账号");
+                    is = false;
+                }
+            }
+
+
+            if (form.get("password") == "") {
+                document.getElementsByClassName("mms")[1].setAttribute("class", "mms v-loact");
+                $(".text_demo:eq(1)").text("请输入密码");
+                is = false;
+            } else if (form.get("password").length < 8 || form.get("password").length > 16) {
+                document.getElementsByClassName("mms")[1].setAttribute("class", "mms v-loact");
+                $(".text_demo:eq(1)").text("请输入8-16位密码");
+                is = false;
+            }
+            if (form.get("verification") == "") {
+                document.getElementsByClassName("mms")[2].setAttribute("class", "mms v-loact");
+                $(".text_demo:eq(2)").text("请输入验证码");
+                is = false;
+            }
+
+            if (is) {
+                $.ajax({
+                    contentType: "application/x-www-form-urlencoded",
+                    type: "POST",
+                    url: "/user/login",
+                    data: form,
+                    processData: false,//默认utf-8编码
+                    contentType: false,
+                    success: function (data) {
+                        if (data == "登录成功!") {
+                            $(".win").css("background-color", "rgba(180, 255, 186, 0.98)");
+                            window.setTimeout(function () {
+                                window.location.href = $("#host").data(host)+"/music/index.html";
+                            }, 5000)
+                        } else {
+                            $(".win").css("background-color", "red");
+                        }
+                        $(".win_text").html(data);
+                        $(".win").addClass("win_bu");
+                        if (data == "验证码错误") {
+                            $(".img-thumbnail").attr("src", "img?data=" + new Date());
+                        }
+
+                    }, error: function () {
+                        $(".win").css("background-color", "red");
+                        $(".win_text").html("登录失败,请检查网络!");
+                        $(".win").addClass(" win_bu");
+                    }
+                });
+                setTimeout(function () {
+                    $(".win").attr("class", "win")
+                }, 2000)
+            }
+
+
+        });
+    });
+
+    function demo_fou(bt) {
+        document.getElementsByClassName("mms")[bt].setAttribute("class", "mms");
+
+        is = true;
+    }
+</script>
+

@@ -1,0 +1,9 @@
+2020-07-19 09:24:52  [ http-nio-8080-exec-8:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:58 
+2020-07-19 09:38:34  [ http-nio-8080-exec-9:821852 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:80 
+2020-07-19 12:03:39  [ Thread-5:9527728 ] - [ INFO ]  cpu负载率:91 
+2020-07-19 12:03:49  [ Thread-5:9537362 ] - [ INFO ]  cpu负载率:92 
+2020-07-19 12:03:53  [ Thread-5:9540811 ] - [ INFO ]  cpu负载率:88 
+2020-07-19 12:10:07  [ Thread-5:9914828 ] - [ INFO ]  cpu负载率:93 
+2020-07-19 13:43:44  [ Thread-5:15532507 ] - [ INFO ]  cpu负载率:86 
+2020-07-19 13:43:45  [ Thread-5:15533605 ] - [ INFO ]  cpu负载率:91 
+2020-07-19 13:43:46  [ Thread-5:15534733 ] - [ INFO ]  cpu负载率:93 

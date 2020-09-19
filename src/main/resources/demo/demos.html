@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="/webuploade/css/webuploader.css">
+<link rel="stylesheet" type="text/css" href="/css/updata_file.css"/>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/webuploade/dist/webuploader.js"></script>
+<script type="text/javascript" src="/js/music_file.js"></script>
+<body>
+<div class="demo">
+    <div class="top">
+        <h3 align="center">音乐添加</h3>
+    </div>
+    <form id="music_" name="music" method="post" enctype="multipart/form-data">
+        <div id="imgPreview">
+            <div id="prompt3">
+			 <span id="imgSpan">
+			 图片
+			 <br/>
+			 <i class="aui-iconfont"></i>
+                 <!--AUI框架中的图标-->
+			 </span>
+                <input type="file" id="file" name="file" class="filepath" onchange="changepic(this)"
+                       accept="image/jpg,image/jpeg,image/png,image/PNG">
+                <!--当vaule值改变时执行changepic函数，规定上传的文件只能是图片-->
+            </div>
+            <img src="#" id="img3"/>
+        </div>
+
+
+        <div class="form-group inp_1">
+            <label for="fistname" class="col-sm-6 control-label">音乐名*</label>
+
+            <input type="text" class="form-control" id="firstname" name="firstname"
+                   placeholder="请输入音乐名"/>
+
+        </div>
+        <div class="form-group  inp_2">
+            <label for="fistname" class="col-sm-6 control-label">作者*</label>
+            <input type="text" class="form-control" id="author_name" name="author_name"
+                   placeholder="请输入哥名作者"/>
+
+        </div>
+        <div class="form-group  inp_3">
+            <label for="fistname" class="col-sm-6 control-label">版权到期时间*</label>
+            <input type="date" class="form-control" id="misic_date" name="music_date" ;
+                   placeholder="请输入哥名作者"/>
+        </div>
+        <div class="form-group  inp_4">
+            <label for="fistname" class="col-sm-6 control-label">音乐组*</label>
+            <select class="form-control" id="music_zu" name="music_zu">
+                <option value="-1">--请选择--</option>
+                <option value="0">流行音乐</option>
+            </select>
+
+        </div>
+        <div class="form-group  inp_5">
+            <label for="fistname" class="col-sm-6 control-label">下载等级*</label>
+            <select class="form-control" id="music_denji" name="music_denji">
+                <option value="-1">--请选择--</option>
+                <option value="0">普通下载</option>
+                <option value="1">vip下载</option>
+                <option value="2">钻石vip下载</option>
+            </select>
+        </div>
+        <div class="form-group  inp_6">
+            <label for="fistname" class="col-sm-6 control-label" id="music_geci" name="music_geci">歌词</label>
+            <textarea class="form-control" rows="3"></textarea>
+        </div>
+        <div class="music">
+            <div id="picker">选择文件</div>
+        </div>
+        <div class="btns1">
+            <div id="thelist">
+
+                <table class="table">
+
+                    <thead>
+                    <tr>
+                        <th>音乐名</th>
+                        <th>状态</th>
+                        <th>进度</th>
+                    </tr>
+                    </thead>
+                    <tbody id="ts"></tbody>
+                </table>
+            </div>
+            <p align="center">
+                <button type="button" id="ctlBtn" class="btn btn-primary">开始上传</button>
+            </p>
+        </div>
+        <p class="music_submit btn-group btn-group-lg ">
+            <button type="button" id="submit" class="btn brn-default"
+                    style="margin-left: 330px; width: 150px; background-color: #FFFFFF;">提交
+            </button>
+        </p>
+    </form>
+</DIV>
+<script>
+
+
+    $(function () {
+        var $bt = $("#submit"),
+            firstname = $("#firstname"),
+            author_name = $("#author_name"),
+            music_date = $("#misic_date"),
+            music_zu = $("#music_zu"),
+            music_denji = $("#music_denji"),
+            music_geci = $("#music_geci"),
+            form_music = document.getElementById('music_'),
+            music_img = document.getElementById('file').files[0];
+
+        $bt.on("click", function () {
+            var is = true;
+            var formdata = new FormData(form_music);
+            if (music_denji.val() == "-1") {
+                is = false;
+                $(".inp_5").attr("class", "inp_5 has-error form-group");
+                $(".inp_5 .col-sm-6").html("音乐组未选择");
+                window.setTimeout(function () {
+                    demo("音乐组*", "inp_5 form-group", $(".inp_5"), $(".inp_5 .col-sm-6"));
+                }, 2000);
+            }
+            if (music_zu.val() == "-1") {
+                is = false;
+                $(".inp_4").attr("class", "inp_4 has-error form-group");
+                $(".inp_4 .col-sm-6").html("音乐组未选择");
+                window.setTimeout(function () {
+                    demo("音乐组*", "inp_4 form-group", $(".inp_4"), $(".inp_4 .col-sm-6"));
+                }, 2000);
+            }
+
+            if (music_date.val() == "") {
+                is = false;
+                $(".inp_3").attr("class", "inp_3 has-error form-group");
+                $(".inp_3 .col-sm-6").html("上传时间不能为空");
+                window.setTimeout(function () {
+                    demo("音乐名*", "inp_3 form-group", $(".inp_3"), $(".inp_3 .col-sm-6"));
+                }, 2000);
+            }
+            if (firstname.val() == "") {
+                is = false;
+                $(".inp_1").attr("class", "inp_1 has-error form-group");
+                $(".inp_1 .col-sm-6").html("音乐名不能为空");
+                window.setTimeout(function () {
+                    demo("音乐名*", "inp_1 form-group", $(".inp_1"), $(".inp_1 .col-sm-6"));
+                }, 2000);
+            }
+            if (author_name.val() == "") {
+                is = false;
+                $(".inp_2").attr("class", "inp_2 has-error form-group");
+                $(".inp_2 .col-sm-6").html("作者不能为空");
+                window.setTimeout(function () {
+                    demo("作者*", "inp_2 form-group", $(".inp_2"), $(".inp_2 .col-sm-6"));
+                }, 2000);
+            }
+
+
+            if (formdata.get("file").size == 0) {
+                alert("你图片未选");
+                is = false;
+            } else is = verificationPicFile(document.getElementById('file'));
+            ;
+            if (is) {
+                alert("进路");
+                $.ajax({
+                    contentType: 'multipart/form-data',
+                    url: 'resource/updata',
+                    type: 'POST',
+                    cache: false,
+                    data: formdata,
+                    processData: false,
+                    contentType: false,
+                    success: function (result) {
+                        alert(result);
+                    },
+                    error: function (error) {
+                        alert(error);
+                    }
+                });
+
+            }
+
+
+        });
+
+        function demo(text, css, bt, bt1) {
+            bt.attr("class", css);
+            bt1.html(text);
+        }
+
+        function date_demo(date) {
+            return true;
+        }
+
+        function verificationPicFile(file) {
+            var fileTypes = [".jpg", ".png"];
+            var filePath = file.value;
+            //当括号里面的值为0、空字符、false 、null 、undefined的时候就相当于false
+            if (filePath) {
+                var isNext = false;
+                var fileEnd = filePath.substring(filePath.indexOf("."));
+                for (var i = 0; i < fileTypes.length; i++) {
+                    if (fileTypes[i] == fileEnd) {
+                        isNext = true;
+                        break;
+                    }
+                }
+                if (!isNext) {
+                    alert('不接受此文件类型');
+                    file.value = "";
+                    return false;
+                }
+                return true;
+            }
+        }
+    })
+</script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,138 @@
+{
+  "groups": [
+    {
+      "name": "com.music.host",
+      "type": "com.music_demo.service_model.music2.usiciInterceptor",
+      "sourceType": "com.music_demo.service_model.music2.usiciInterceptor"
+    },
+    {
+      "name": "information.role",
+      "type": "com.music_demo.inform.entrance.imp.announce",
+      "sourceType": "com.music_demo.inform.entrance.imp.announce"
+    },
+    {
+      "name": "music.chech.title",
+      "type": "com.music_demo.administrator.function.content_Title",
+      "sourceType": "com.music_demo.administrator.function.content_Title"
+    },
+    {
+      "name": "music.host.server",
+      "type": "com.music_demo.path.Host",
+      "sourceType": "com.music_demo.path.Host"
+    },
+    {
+      "name": "music.path",
+      "type": "com.music_demo.controller_model.resource.Resource_path",
+      "sourceType": "com.music_demo.controller_model.resource.Resource_path"
+    },
+    {
+      "name": "music.redis.user.cache",
+      "type": "com.music_demo.redis_model.User_Redis",
+      "sourceType": "com.music_demo.redis_model.User_Redis"
+    },
+    {
+      "name": "music.view",
+      "type": "com.music_demo.path.isMonitoring",
+      "sourceType": "com.music_demo.path.isMonitoring"
+    },
+    {
+      "name": "musicredis.music",
+      "type": "com.music_demo.redis_model.Music_Chache",
+      "sourceType": "com.music_demo.redis_model.Music_Chache"
+    },
+    {
+      "name": "spring.file.file",
+      "type": "com.music_demo.file_model.file.path_file.Path_",
+      "sourceType": "com.music_demo.file_model.file.path_file.Path_"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.music.host.audio-host",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.service_model.music2.usiciInterceptor"
+    },
+    {
+      "name": "com.music.host.img-host",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.service_model.music2.usiciInterceptor"
+    },
+    {
+      "name": "information.role.role",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.inform.entrance.imp.announce"
+    },
+    {
+      "name": "information.role.role-type",
+      "type": "java.lang.Integer",
+      "sourceType": "com.music_demo.inform.entrance.imp.announce"
+    },
+    {
+      "name": "information.role.username",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.inform.entrance.imp.announce"
+    },
+    {
+      "name": "music.chech.title.content",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.music_demo.administrator.function.content_Title"
+    },
+    {
+      "name": "music.chech.title.titles",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.administrator.function.content_Title"
+    },
+    {
+      "name": "music.host.server.host",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.path.Host"
+    },
+    {
+      "name": "music.path.img",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.controller_model.resource.Resource_path"
+    },
+    {
+      "name": "music.path.key",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.controller_model.resource.Resource_path"
+    },
+    {
+      "name": "music.path.music",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.controller_model.resource.Resource_path"
+    },
+    {
+      "name": "music.path.musicchach",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.controller_model.resource.Resource_path"
+    },
+    {
+      "name": "music.redis.user.cache.redis",
+      "type": "com.music_demo.redis_model.public_Redis",
+      "sourceType": "com.music_demo.redis_model.User_Redis"
+    },
+    {
+      "name": "music.redis.user.cache.time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.music_demo.redis_model.User_Redis"
+    },
+    {
+      "name": "music.view.is",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.path.isMonitoring"
+    },
+    {
+      "name": "musicredis.music.time",
+      "type": "java.lang.Long",
+      "sourceType": "com.music_demo.redis_model.Music_Chache",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.file.file.path",
+      "type": "java.lang.String",
+      "sourceType": "com.music_demo.file_model.file.path_file.Path_"
+    }
+  ],
+  "hints": []
+}

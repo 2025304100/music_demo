@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.music_demo.mapper.dao.Message">
+    <resultMap id="pageview" type="com.music_demo.entity.information.PageView">
+        <id property="id" column="id"/>
+
+        <result property="index" column="index"/>
+        <result property="visitor_volume" column="visitor_volume"/>
+        <result property="explain" column="explain"/>
+        <!-- association处理has-a关系 -->
+        <!--注意：这种方式javaType必须指定，表示supervisor的类型是com.music_demo.entity.information.PageType，否则会报错 -->
+        <association property="pageType" javaType="com.music_demo.entity.information.PageType">
+            <result property="direct" column="direct"/>
+            <result property="consumer" column="consumer"/>
+            <result property="memberPv" column="memberpv"/>
+            <result property="supermenberpv" column="super_menberpv"></result>
+            <result property="visitor_volume" column="visitor_volume"/>
+        </association>
+
+    </resultMap>
+    <select id="getlPage" resultMap="pageview" parameterType="java.util.Map">
+        select `id`,`index`,`direct`,`consumer`,`memberpv`,`supermenberpv`,`visistor_volume`,`explain`
+        from ${title}
+        where `index`>#{time}
+        limit 0,7
+
+    </select>
+    <select id="onePage" resultMap="pageview" parameterType="java.util.Map">
+        SELECT
+        `id`,`index`,`direct`,`consumer`,`memberpv`,`supermenberpv`,`visistor_volume`,`explain`
+        FROM
+        ${title}
+        WHERE
+        `index`=${time}
+    </select>
+    <select id="setQuarter" resultMap="pageview" parameterType="java.util.Map">
+        SELECT
+        SUM(direct) `direct`,SUM(consumer) `consumer`,SUM(memberPv) `memberPv`,SUM(supermenberpv)
+        `supermenberpv`,SUM(visistor_volume) `visistor_volume`
+        FROM
+        ${time}
+        WHERE
+        `INDEX`>=${oldtime} AND `INDEX`&lt;${newtime}
+    </select>
+
+</mapper>

@@ -1,0 +1,32 @@
+2020-06-25 02:48:19  [ Thread-16:1 ] - [ ERROR ]  Invalid bound statement (not found): com.music_demo.mapper.dao.Resource.setComent 
+2020-06-25 02:49:01  [ Thread-17:42285 ] - [ ERROR ]  Invalid bound statement (not found): com.music_demo.mapper.dao.Resource.setComent 
+2020-06-25 02:49:43  [ Thread-18:84650 ] - [ ERROR ]  Invalid bound statement (not found): com.music_demo.mapper.dao.Resource.setComent 
+2020-06-25 02:50:24  [ Thread-19:125581 ] - [ ERROR ]  Invalid bound statement (not found): com.music_demo.mapper.dao.Resource.setComent 
+2020-06-25 02:55:44  [ Thread-16:1 ] - [ ERROR ]  Invalid bound statement (not found): com.music_demo.mapper.dao.Resource.setComent 
+2020-06-25 03:00:29  [ Thread-27:284906 ] - [ ERROR ]  nested exception is org.apache.ibatis.reflection.ReflectionException: There is no getter for property named 'after_name' in 'class com.music_demo.entity.Comment' 
+2020-06-25 03:03:37  [ Thread-16:137 ] - [ ERROR ]  
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'defualt' in 'field list'
+### The error may involve com.music_demo.mapper.dao.Resource.setComent-Inline
+### The error occurred while setting parameters
+### SQL: insert          into comment          values(defualt,?,?,          ?,?,?,          ?,?,?,?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'defualt' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'defualt' in 'field list' 
+2020-06-25 03:05:20  [ Thread-27:102264 ] - [ ERROR ]  
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'click' cannot be null
+### The error may involve com.music_demo.mapper.dao.Resource.setComent-Inline
+### The error occurred while setting parameters
+### SQL: insert          into comment          values(default,?,?,          ?,?,?,          ?,?,?,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'click' cannot be null
+; Column 'click' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'click' cannot be null 
+2020-06-25 03:07:12  [ Thread-38:214202 ] - [ ERROR ]  
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'publish_data' cannot be null
+### The error may involve com.music_demo.mapper.dao.Resource.setComent-Inline
+### The error occurred while setting parameters
+### SQL: insert          into comment          values(default,?,?,          ?,?,?,          ?,?,default,?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'publish_data' cannot be null
+; Column 'publish_data' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'publish_data' cannot be null 
+2020-06-25 10:57:36  [ http-nio-8080-exec-3:0 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-06-25 13:27:41  [ http-nio-8080-exec-8:7417935 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-06-25 13:28:21  [ Thread-16:7457333 ] - [ ERROR ]   
+2020-06-25 13:29:41  [ Thread-17:7537373 ] - [ ERROR ]   
+2020-06-25 13:31:28  [ Thread-16:37 ] - [ ERROR ]   

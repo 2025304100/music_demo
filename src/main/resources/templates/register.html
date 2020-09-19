@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="hb-loaded" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="csrf-token" content="fwthi2kFGosUpy0roUsNrGHt9BFbH5Sg4lWFt72p">
+
+    <!-- 网站icon，来自于Google开源图标 -->
+    <link rel="icon" type="image/png" href="http://source.aicode.cc/favorite.png">
+
+    <title>极客云</title>
+    <link rel="stylesheet" href="/static/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="/static/user_inp.css">
+    <style type="text/css">
+
+    </style>
+</head>
+
+<body class="text-center" huaban_collector_injected="true">
+<div class="win">
+    <div class="win_text"></div>
+</div>
+
+
+<div class="card" style="min-width: 500px;height: 900px">
+    <div class="card-body" style="position: absolute;min-width: 500px; margin: 50px auto">
+
+        <form class="form-signin" method="POST" id="form_user" name="form_user">
+
+
+            <h3 class="h3 mb-3 font-weight-normal" style="height: 20px">注册账号</h3>
+            <div class="text-left form-group bmd-form-group">
+                <div class="mms">
+                    <a></a>
+                    <div class="text_demo">111</div>
+                </div>
+                <label for="username" class="bmd-label-floating">账号</label>
+                <input id="username" type="text" class="form-control" maxlength="12" name="username"
+                       onfocus="demo_fou(0)">
+            </div>
+            <div class="text-left form-group bmd-form-group">
+                <div class="mms">
+                    <a></a>
+                    <div class="text_demo">111</div>
+                </div>
+                <label for="name" class="bmd-label-floating">昵称</label>
+                <input id="name" type="text" class="form-control" name="name" maxlength="10" onfocus="demo_fou(1)">
+            </div>
+
+            <div class="text-left form-group bmd-form-group">
+                <div class="mms">
+                    <a></a>
+                    <div class="text_demo">111</div>
+                </div>
+                <label for="email" class="bmd-label-floating">邮箱地址</label>
+                <input id="email" type="email" class="form-control" name="email" onfocus="demo_fou(2)">
+            </div>
+            <div class="btn-ver text-left form-group bmd-form-group">
+
+                <div class="" style="width: 150px; float: left">
+                    <div class="mms1">
+                        <a></a>
+                        <div class="text_demol">111</div>
+                    </div>
+                    <label for="email_verification" class="bmd-label-floating">验证码</label>
+                    <input id="email_verification" type="text" maxlength="4" class="form-control"
+                           name="email_verification" onfocus="demo(0)">
+                </div>
+                <button type="button" class="btn btn-primary" id="vir_email" style="margin-left: 25px;">发送</button>
+            </div>
+            <div class="text-left form-group bmd-form-group">
+                <div class="mms">
+                    <a></a>
+                    <div class="text_demo">111</div>
+                </div>
+                <label for="password" class="bmd-label-floating">密码</label>
+                <input id="password" type="password" maxlength="16" class="form-control" name="pas" required=""
+                       onfocus="demo_fou(3)">
+
+            </div>
+
+            <div class="text-left form-group bmd-form-group ">
+                <div class="mms">
+                    <a></a>
+                    <div class="text_demo">111</div>
+                </div>
+                <label for="password-confirm" class="bmd-label-floating">重复密码</label>
+                <input id="password-confirm" type="password" maxlength="16" class="form-control"
+                       name="password_confirmation" onfocus="demo_fou(4)">
+            </div>
+            <div class="text-left form-group bmd-form-group" id="nm_6">
+                <div class="mms">
+                    <a></a>
+                    <div class="text_demo">111</div>
+                </div>
+                <label for="phon" class="bmd-label-floating ">手机号</label>
+                <input id="phon" type="text" class="form-control" name="phon" required="" maxlength="11"
+                       onfocus="demo_fou(5)">
+            </div>
+            <div class="text-left form-group bmd-form-group">
+                <div class="mms">
+                    <a></a>
+                    <div class="text_demo">111</div>
+                </div>
+
+                <label for="phon" class="bmd-label-floating ">性别</label>
+                <select class="form-control" name="sex">
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+            </div>
+            <button type="button" id="but" class="btn btn-lg btn-primary btn-block btn-raised">
+                注册账号
+            </button>
+
+            <a class="btn btn-link" href="login.html">已有账号，登录</a>
+
+        </form>
+
+    </div>
+</div>
+
+<script src="/static/jquery.min.js"></script>
+
+<script src="/static/popper.js"></script>
+<script src="/static/bootstrap-material-design.js"></script>
+<script src="/static/regis.js"></script>
+

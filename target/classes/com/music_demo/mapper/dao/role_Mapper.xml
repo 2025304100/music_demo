@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.music_demo.mapper.dao.role_Mapper">
+
+    <select id="collect" resultType="java.lang.Long" parameterType="com.music_demo.entity.collect_en">
+        select id from user_music where music_id=#{music_id} and username=#{username};
+    </select>
+    <insert id="setConllect" keyProperty="id" useGeneratedKeys="true" parameterType="com.music_demo.entity.collect_en">
+        insert into user_music value(default,#{username},#{music_id},#{is_buy},#{data_time});
+    </insert>
+</mapper>

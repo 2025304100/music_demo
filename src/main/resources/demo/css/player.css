@@ -1,0 +1,161 @@
+#box1_lef {
+    left: 5%;
+    border: none;
+}
+
+.box1_r input[type="button"] {
+    width: 35px;
+    height: 20px;
+    border: none;
+    left: 160px;
+    top: -2px;
+    position: absolute;
+
+}
+
+.lows {
+    width: 100px;
+    height: 7px;
+    position: absolute;
+    left: 35px;
+    z-index: 3;
+    top: 7px;
+}
+
+#box2_cd {
+    left: 35px;
+    top: 7px;
+    height: 4px;
+    z-index: 2;
+
+}
+
+#box2_pl {
+    height: 4px;
+}
+
+#ind i {
+    height: 10px;
+    width: 10px;
+    top: -3px;
+    margin-left: 100%;
+}
+
+.box1_r {
+    width: 25%;
+    height: 20px;
+    position: absolute;
+    margin-top: 15px;
+
+    left: 75%;
+}
+
+.is i {
+    height: 20px;
+    width: 20px;
+    background-image: url(/demo1/css/img/2020-04-19%20115510.png);
+    margin-left: 15px;
+}
+
+.box span i {
+    position: absolute;
+    background-size: 100%;
+
+}
+
+.Previous i {
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    margin: 0 auto;
+    background-image: url(/demo1/css/img/Desktop.png);
+}
+
+.next_step i {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    background-image: url(/demo1/css/img/dd.png);
+    top: 14px;
+    left: 66px;
+}
+
+.play i {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background-image: url(/demo1/css/img/20253.png);
+    top: 10px;
+    left: 30px;
+}
+
+#uin {
+
+    margin-left: 100%;
+}
+
+.ind i {
+
+    width: 13px;
+    height: 13px;
+    background-image: url(/demo1/css/img/ds.png);
+    bottom: -2px;
+
+    left: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    height: 55px;
+    background-color: rgba(43, 43, 43, .9);
+
+    position: fixed;
+    bottom: 0;
+
+}
+
+.box1_left {
+    position: absolute;
+    width: 15%;
+    height: 55px;
+    float: left;
+    border-right: solid 2px #5e5e5e;
+
+}
+
+.box1_rigth {
+    background-color: #191919;
+    width: 60%;
+    float: left;
+    position: absolute;
+    left: 15%;
+    margin-top: 20px;
+    height: 10px;
+    border-radius: 5px;
+
+}
+
+.box2_cd {
+
+    height: 10px;
+    position: absolute;
+    border-radius: 0 5px 5px 0;
+    background-color: #535353;
+}
+
+.box2_pl {
+
+    height: 10px;
+    position: absolute;
+    background-color: red;
+}
+
+#box2_pl {
+    border-radius: 0 5px 5px 0;
+}
+		

@@ -1,0 +1,64 @@
+2020-09-17 13:54:34  [ Thread-5:0 ] - [ INFO ]  cpu负载率:99 
+2020-09-17 13:54:36  [ Thread-5:1199 ] - [ INFO ]  cpu负载率:88 
+2020-09-17 13:54:43  [ Thread-5:8765 ] - [ INFO ]  cpu负载率:89 
+2020-09-17 13:58:49  [ Thread-5:254571 ] - [ INFO ]  cpu负载率:98 
+2020-09-17 14:26:05  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:45 
+2020-09-17 14:26:40  [ http-nio-8080-exec-3:35035 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:40 
+2020-09-17 14:26:42  [ http-nio-8080-exec-2:37002 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:50 
+2020-09-17 14:26:43  [ http-nio-8080-exec-3:38226 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:61 
+2020-09-17 14:26:45  [ http-nio-8080-exec-6:39793 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:51 
+2020-09-17 14:27:51  [ http-nio-8080-exec-5:105802 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:93 
+2020-09-17 14:27:59  [ http-nio-8080-exec-7:114425 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-09-17 14:28:11  [ http-nio-8080-exec-3:126546 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:17  [ http-nio-8080-exec-2:131977 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:17  [ http-nio-8080-exec-9:131977 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:17  [ http-nio-8080-exec-10:132016 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:17  [ http-nio-8080-exec-6:132102 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:17  [ http-nio-8080-exec-4:132225 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:17  [ http-nio-8080-exec-7:132236 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:17  [ http-nio-8080-exec-5:132305 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:17  [ http-nio-8080-exec-4:132611 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:18  [ http-nio-8080-exec-7:132883 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:18  [ http-nio-8080-exec-3:133388 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:18  [ http-nio-8080-exec-1:133459 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:18  [ http-nio-8080-exec-8:133509 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:48 
+2020-09-17 14:28:18  [ http-nio-8080-exec-2:133649 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:19  [ http-nio-8080-exec-9:133750 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:19  [ http-nio-8080-exec-8:133755 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:19  [ http-nio-8080-exec-9:133988 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:19  [ http-nio-8080-exec-5:134025 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:19  [ http-nio-8080-exec-2:134046 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:19  [ http-nio-8080-exec-10:134058 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:19  [ http-nio-8080-exec-6:134072 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:30  [ http-nio-8080-exec-4:145393 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:48 
+2020-09-17 14:28:30  [ http-nio-8080-exec-4:145561 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:30  [ http-nio-8080-exec-7:145572 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:31  [ http-nio-8080-exec-3:146663 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:48 
+2020-09-17 14:28:32  [ http-nio-8080-exec-1:146824 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:32  [ http-nio-8080-exec-3:146856 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:32  [ http-nio-8080-exec-2:146896 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:32  [ http-nio-8080-exec-9:146896 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:32  [ http-nio-8080-exec-8:146901 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:32  [ http-nio-8080-exec-1:146972 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:32  [ http-nio-8080-exec-5:146990 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 14:28:32  [ http-nio-8080-exec-8:147344 ] - [ ERROR ]  错误:com.music_demo.monitor.login.request 值为null 
+2020-09-17 15:36:45  [ Thread-5:4240440 ] - [ INFO ]  cpu负载率:88 
+2020-09-17 16:37:44  [ Thread-5:7899391 ] - [ INFO ]  cpu负载率:99 
+2020-09-17 21:11:14  [ Thread-5:24309415 ] - [ INFO ]  cpu负载率:90 
+2020-09-17 21:35:54  [ Thread-5:25789686 ] - [ INFO ]  cpu负载率:94 
+2020-09-17 21:36:11  [ Thread-5:25806014 ] - [ INFO ]  cpu负载率:95 
+2020-09-17 21:36:12  [ Thread-5:25807494 ] - [ INFO ]  cpu负载率:90 
+2020-09-17 21:36:13  [ Thread-5:25808614 ] - [ INFO ]  cpu负载率:98 
+2020-09-17 21:36:15  [ Thread-5:25809786 ] - [ INFO ]  cpu负载率:88 
+2020-09-17 21:36:16  [ Thread-5:25811114 ] - [ INFO ]  cpu负载率:96 
+2020-09-17 21:36:24  [ Thread-5:25818816 ] - [ INFO ]  cpu负载率:98 
+2020-09-17 21:36:25  [ Thread-5:25820093 ] - [ INFO ]  cpu负载率:88 
+2020-09-17 21:36:26  [ Thread-5:25821269 ] - [ INFO ]  cpu负载率:86 
+2020-09-17 21:36:27  [ Thread-5:25822366 ] - [ INFO ]  cpu负载率:93 
+2020-09-17 22:11:26  [ Thread-5:27921314 ] - [ INFO ]  cpu负载率:99 
+2020-09-17 22:11:27  [ Thread-5:27922403 ] - [ INFO ]  cpu负载率:99 
+2020-09-17 22:11:28  [ Thread-5:27923490 ] - [ INFO ]  cpu负载率:98 
+2020-09-17 22:11:29  [ Thread-5:27924581 ] - [ INFO ]  cpu负载率:99 
+2020-09-17 22:11:30  [ Thread-5:27925681 ] - [ INFO ]  cpu负载率:100 
+2020-09-17 23:01:23  [ Thread-5:30917899 ] - [ INFO ]  cpu负载率:87 
+2020-09-17 23:01:35  [ Thread-5:30929751 ] - [ INFO ]  cpu负载率:86 

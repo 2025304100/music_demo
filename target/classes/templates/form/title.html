@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.otg">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<link href="/Leibie/css/publis/table.css" type="text/css" rel="stylesheet"/>
+<body>
+<div class="body_title">
+    <div class="from_menu" style="">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th width="70px">图片</th>
+                <th width="350px">歌名</th>
+                <th width="250px">作者</th>
+                <th width="120px">热度</th>
+                <th width="210px">收藏</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="title:${titles}">
+                <td>
+                    <img src="../img/7ea5a41dae222bd21eb708b67f397c05.jpg" th:src="${title.file_img}" width="50"
+                         height="50">
+                </td>
+                <td><b class="title_b" th:text="${title.music_name}">王大锤的爱情</b></td>
+                <td><b class="title_b" th:text="${title.music_author_name}">周国强</b></td>
+                <td><b class="title_b" th:text="${title.context}">2222</b></td>
+                <td><b class="title_b">
+                    <b th:switch="${title.login}">
+                        <button th:case="-1" onclick="javascript:window.parent.parent.location.href='/user/login'">请登录
+                        </button>
+                        <button th:case="0" th:onclick="addCollect(this)" th:data-id="${title.idpas}"
+                                onclick="addCollect()">未收藏
+                        </button>
+                        <button th:case="1" th:onclick="removeCollect(this)" th:data-id="${title.idpas}"
+                                onclick="removeCollect()">已收藏
+                        </button>
+                    </b>
+                    <button onclick="play(this)" th:data-idpas="${title.idpas}">播放</button>
+                </b></td>
+            </tr>
+
+
+            </tbody>
+        </table>
+
+        <div class="page_index">
+            <ul class="pagination align-page">
+                <li><a href="#">&laquo;</a></li>
+                <li th:each="index:${indexs}"><a href="#" th:style="${index.style}" th:href="${index.path}"
+                                                 th:text="${index.text}">1</a></li>
+
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+<script>
+    function play(mi) {
+
+        let idpas = mi.getAttribute("data-idpas");
+        $.get("/proxy/resource/oneMusic/" + idpas,
+            function (cont) {
+                parent.window.plays(cont);
+            }
+        )
+
+    }
+
+    parent.window.heig(document.body.scrollHeight);
+    let addCollect = function (im) {
+        parent.window.addCollects(im);
+    }
+    let removeCollect = function (im) {
+        parent.window.removeCollects(im);
+    }
+
+</script>
+</html>

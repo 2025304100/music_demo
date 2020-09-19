@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.otg">
+<head>
+    <meta charset="utf-8">
+    <title>我的收藏</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<link href="css/publis/table.css" type="text/css" rel="stylesheet"/>
+<body>
+
+<div class="top">
+    <div class="title_type">
+        <div class="btn-group  ">
+					  <span>
+						  <a><img src="img/abc.png" width="40" height="40px" class="img_user "/></a>
+						  <a><img src="img/abd.png" width="50" height="40px" class="img_user"/></a>
+						</span>
+        </div>
+    </div>
+    <style>
+        .img_user {
+            border-radius: 30px;
+            margin: 10px;
+        }
+    </style>
+
+</div>
+<div class="body_title">
+    <div class="from_menu" style="">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th width="70px">图片</th>
+                <th width="350px">歌名</th>
+                <th width="250px">作者</th>
+                <th width="130px">热度</th>
+                <th width="200px">收藏</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="title:${titles}">
+                <td>
+                    <img src="../img/7ea5a41dae222bd21eb708b67f397c05.jpg" width="50" height="50">
+                </td>
+                <td><b class="title_b" th:html="${title.music_name}">王大锤的爱情</b></td>
+                <td><b class="title_b" th:html="${title.music_author_name}">周国强</b></td>
+                <td><b class="title_b" th:html="${title.music_index}">2222</b></td>
+                <td><b class="title_b">
+                    <button>收藏</button>
+                    <button>播放</button>
+                </b></td>
+            </tr>
+
+            </tbody>
+        </table>
+        <script>
+            $(function () {
+                alert("wdd");
+            })
+        </script>
+        <div class="page_index">
+            <ul class="pagination align-page">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

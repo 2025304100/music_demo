@@ -1,0 +1,10 @@
+2020-06-01 18:17:10  [ Thread-1:0 ] - [ ERROR ]  getThreadCountForWindows()报异常：java.lang.NullPointerException 
+2020-06-01 18:17:10  [ Thread-1:7 ] - [ ERROR ]  java.lang.NumberFormatException: empty String 
+2020-06-01 18:19:38  [ Thread-1:0 ] - [ ERROR ]  getThreadCountForWindows()报异常：java.lang.NullPointerException 
+2020-06-01 18:19:38  [ Thread-1:3 ] - [ ERROR ]  java.lang.NumberFormatException: empty String 
+2020-06-01 18:20:48  [ Thread-1:0 ] - [ ERROR ]  getThreadCountForWindows()报异常：java.lang.NullPointerException 
+2020-06-01 18:20:48  [ Thread-1:3 ] - [ ERROR ]  java.lang.NumberFormatException: empty String 
+2020-06-01 18:26:09  [ Thread-1:0 ] - [ ERROR ]  getThreadCountForWindows()报异常：java.lang.NullPointerException 
+2020-06-01 18:26:09  [ Thread-1:5 ] - [ ERROR ]  java.lang.NumberFormatException: empty String 
+2020-06-01 18:27:30  [ Thread-1:0 ] - [ ERROR ]  getThreadCountForWindows()报异常：java.lang.NullPointerException 
+2020-06-01 18:27:30  [ Thread-1:2 ] - [ ERROR ]  java.lang.NumberFormatException: empty String 

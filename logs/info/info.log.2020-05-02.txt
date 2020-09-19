@@ -1,0 +1,13 @@
+2020-05-02 00:02:43  [ http-nio-8080-exec-10:0 ] - [ INFO ]  non null key required 
+2020-05-02 00:06:57  [ http-nio-8080-exec-10:0 ] - [ INFO ]  non null key required 
+2020-05-02 00:09:35  [ http-nio-8080-exec-10:0 ] - [ INFO ]  Cannot serialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to serialize object using DefaultSerializer; nested exception is java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [com.music_demo.redis_model.Music_Up] 
+2020-05-02 00:53:02  [ http-nio-8080-exec-1:0 ] - [ INFO ]   
+2020-05-02 00:53:10  [ http-nio-8080-exec-2:7373 ] - [ INFO ]   
+2020-05-02 00:57:02  [ http-nio-8080-exec-9:0 ] - [ INFO ]  d:\music_cache\18软件4g3班-20183271-周国强.jpg (系统找不到指定的文件。) 
+2020-05-02 10:01:17  [ http-nio-8080-exec-3:0 ] - [ INFO ]  Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool 
+2020-05-02 10:06:39  [ http-nio-8080-exec-3:321807 ] - [ INFO ]  Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool 
+2020-05-02 10:08:28  [ http-nio-8080-exec-9:0 ] - [ INFO ]  Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool 
+2020-05-02 10:11:35  [ http-nio-8080-exec-1:0 ] - [ INFO ]   
+2020-05-02 10:12:41  [ http-nio-8080-exec-1:66408 ] - [ INFO ]  d:\music_cache\STAR WARS Battlefront II 2020-3-28 13_04_18.png (系统找不到指定的文件。) 
+2020-05-02 10:15:58  [ http-nio-8080-exec-10:0 ] - [ INFO ]  d:\music_path\44#cd9c92d4-f47b-4233-bb2a-479ed273c0c4.mp3 (系统找不到指定的路径。) 
+2020-05-02 10:20:18  [ http-nio-8080-exec-10:0 ] - [ INFO ]  d:\music_path\44#dac8e4b0-8257-454c-812b-55213719823d.mp3 (拒绝访问。) 

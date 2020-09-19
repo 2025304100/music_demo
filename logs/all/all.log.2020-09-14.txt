@@ -1,0 +1,52 @@
+2020-09-14 10:20:23  [ Thread-5:0 ] - [ INFO ]  cpu负载率:91 
+2020-09-14 10:52:52  [ http-nio-8080-exec-9:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:62 
+2020-09-14 10:53:00  [ http-nio-8080-exec-7:7908 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:54 
+2020-09-14 11:35:00  [ Thread-5:2527311 ] - [ INFO ]  cpu负载率:91 
+2020-09-14 11:35:01  [ Thread-5:2528604 ] - [ INFO ]  cpu负载率:97 
+2020-09-14 11:35:02  [ Thread-5:2529717 ] - [ INFO ]  cpu负载率:87 
+2020-09-14 11:35:08  [ Thread-5:2535267 ] - [ INFO ]  cpu负载率:100 
+2020-09-14 11:35:09  [ Thread-5:2536381 ] - [ INFO ]  cpu负载率:98 
+2020-09-14 11:35:10  [ Thread-5:2537713 ] - [ INFO ]  cpu负载率:100 
+2020-09-14 11:35:11  [ Thread-5:2538980 ] - [ INFO ]  cpu负载率:88 
+2020-09-14 11:35:13  [ Thread-5:2540248 ] - [ INFO ]  cpu负载率:93 
+2020-09-14 11:35:15  [ Thread-5:2542660 ] - [ INFO ]  cpu负载率:88 
+2020-09-14 11:53:39  [ Thread-5:3646566 ] - [ INFO ]  cpu负载率:99 
+2020-09-14 11:54:23  [ Thread-5:3690419 ] - [ INFO ]  cpu负载率:92 
+2020-09-14 13:44:04  [ Thread-5:10271430 ] - [ INFO ]  cpu负载率:100 
+2020-09-14 13:44:05  [ Thread-5:10272890 ] - [ INFO ]  cpu负载率:89 
+2020-09-14 13:44:06  [ Thread-5:10274136 ] - [ INFO ]  cpu负载率:99 
+2020-09-14 13:44:19  [ Thread-5:10286227 ] - [ INFO ]  cpu负载率:100 
+2020-09-14 13:54:06  [ Thread-5:10874206 ] - [ INFO ]  cpu负载率:99 
+2020-09-14 13:54:09  [ Thread-5:10876374 ] - [ INFO ]  cpu负载率:93 
+2020-09-14 15:35:37  [ Thread-5:16964308 ] - [ INFO ]  cpu负载率:99 
+2020-09-14 15:35:38  [ Thread-5:16965358 ] - [ INFO ]  cpu负载率:87 
+2020-09-14 15:35:49  [ Thread-5:16977019 ] - [ INFO ]  cpu负载率:99 
+2020-09-14 15:35:51  [ Thread-5:16978362 ] - [ INFO ]  cpu负载率:97 
+2020-09-14 15:35:52  [ Thread-5:16979815 ] - [ INFO ]  cpu负载率:94 
+2020-09-14 15:55:35  [ Thread-5:18162889 ] - [ INFO ]  cpu负载率:99 
+2020-09-14 16:16:36  [ Thread-5:19423350 ] - [ INFO ]  cpu负载率:88 
+2020-09-14 16:16:37  [ Thread-5:19424436 ] - [ INFO ]  cpu负载率:92 
+2020-09-14 16:16:41  [ Thread-5:19428914 ] - [ INFO ]  cpu负载率:87 
+2020-09-14 16:16:42  [ Thread-5:19430038 ] - [ INFO ]  cpu负载率:99 
+2020-09-14 16:33:14  [ http-nio-8080-exec-9:20421545 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:66 
+2020-09-14 16:35:40  [ Thread-5:20568136 ] - [ INFO ]  cpu负载率:95 
+2020-09-14 16:35:42  [ Thread-5:20569420 ] - [ INFO ]  cpu负载率:86 
+2020-09-14 16:36:17  [ http-nio-8080-exec-5:20604272 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:44 
+2020-09-14 16:36:25  [ http-nio-8080-exec-7:20613207 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:30 
+2020-09-14 16:36:41  [ http-nio-8080-exec-3:20628403 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:28 
+2020-09-14 16:40:01  [ http-nio-8080-exec-1:20828387 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:28 
+2020-09-14 17:04:35  [ http-nio-8080-exec-10:22302295 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:24 
+2020-09-14 17:04:35  [ http-nio-8080-exec-10:22302633 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:23 
+2020-09-14 17:36:10  [ Thread-5:24198047 ] - [ INFO ]  cpu负载率:92 
+2020-09-14 17:45:51  [ Thread-5:24778256 ] - [ INFO ]  cpu负载率:89 
+2020-09-14 17:53:50  [ http-nio-8080-exec-2:25257958 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:30 
+2020-09-14 17:54:03  [ http-nio-8080-exec-4:25270476 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:29 
+2020-09-14 18:07:47  [ Thread-5:26094252 ] - [ INFO ]  cpu负载率:91 
+2020-09-14 18:07:48  [ Thread-5:26095359 ] - [ INFO ]  cpu负载率:94 
+2020-09-14 18:07:50  [ Thread-5:26097564 ] - [ INFO ]  cpu负载率:93 
+2020-09-14 18:07:53  [ Thread-5:26100808 ] - [ INFO ]  cpu负载率:92 
+2020-09-14 18:07:54  [ Thread-5:26101995 ] - [ INFO ]  cpu负载率:94 
+2020-09-14 18:08:44  [ Thread-5:26151839 ] - [ INFO ]  cpu负载率:91 
+2020-09-14 18:08:45  [ Thread-5:26152941 ] - [ INFO ]  cpu负载率:90 
+2020-09-14 18:08:46  [ Thread-5:26154073 ] - [ INFO ]  cpu负载率:91 
+2020-09-14 21:35:30  [ Thread-5:38558203 ] - [ INFO ]  cpu负载率:90 

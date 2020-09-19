@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.music_demo.mapper.dao.UserMapper">
+    <resultMap id="user" type="com.music_demo.entity.User_entity">
+        <!--        id元素 ，用于设置主键字段与领域模型属性的映射关系-->
+        <!--        result元素 ，用于设置普通字段与领域模型属性的映射关系-->
+        <id column="user_Id" property="id" jdbcType="INTEGER"/>
+        <result column="user_Name" property="name" jdbcType="VARCHAR"/>
+        <result column="user_Username" property="username" jdbcType="VARCHAR"/>
+        <result column="user_Username" property="username" jdbcType="VARCHAR"/>
+        <result column="user_Password" property="pas" jdbcType="VARCHAR"/>
+        <result column="user_Img" property="file_img" jdbcType="VARCHAR"/>
+        <result column="user_Sex" property="sex" jdbcType="VARCHAR"/>
+        <result column="user_Email" property="emil" jdbcType="VARCHAR"/>
+        <result column="user_Phon" property="phon" jdbcType="VARCHAR"/>
+        <!--是否获取 useGeneratedKeys又数据库的内的主键  keyProperty-标记唯一id 将组件返回的bean-->
+    </resultMap>
+    <insert id="Register" useGeneratedKeys="true" keyProperty="id" parameterType="com.music_demo.entity.User_entity">
+        insert into user_(id,name,username,pas,file_img,sex,email,phon)
+        value(default,#{name},#{username},#{pas},#{file_img},#{sex},#{email},#{phon})
+    </insert>
+
+    <insert id="Identity" parameterType="com.music_demo.entity.user_Identity">
+        insert into user_identity values(#{id},default ,default ,default ,default )
+    </insert>
+    <!--获取用户角色-->
+    <select id="getRole" parameterType="java.lang.Long" resultType="com.music_demo.entity.User_Role">
+        SELECT `ID`,`INDEX`,`ROLE` FROM USER_ROLE WHERE ID=#{id};
+    </select>
+    <!--普通用户默认为-0-->
+    <insert id="user_Role" parameterType="com.music_demo.entity.User_Role">
+        insert into user_role values(#{id},default,'user')
+    </insert>
+
+    <select id="getUsername" resultType="java.lang.String" parameterType="String">
+        select username from user_ where username=#{username}
+    </select>
+    <select id="getEmail" resultType="java.lang.String" parameterType="String">
+        select email from user_ where email=#{email}
+    </select>
+    <select id="getIdentity" resultType="java.lang.Long" parameterType="com.music_demo.entity.user_Identity">
+        select `id`,`identity`,`identity_data`,`grade`,`is_of` from `user_identity` where `id`=#{id}
+    </select>
+</mapper>

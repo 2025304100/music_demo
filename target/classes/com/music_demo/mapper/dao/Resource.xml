@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.music_demo.mapper.dao.Resource">
+
+    <insert id="music_red" useGeneratedKeys="true" keyProperty="id" parameterType="com.music_demo.entity.music">
+        insert into music
+        value(default,#{file_music},#{file_img},#{music_name},#{music_author_name},#{file_music_author_name},#{music_type}
+        ,#{music_data},#{music_cpy_music_data},#{music_ts},#{file_lyirc},#{music_index},default,#{is_play})
+    </insert>
+    <insert id="music_redps" useGeneratedKeys="true" keyProperty="id" parameterType="com.music_demo.entity.music">
+        insert into music
+        value(default,#{file_music},#{file_img},#{music_name},#{music_author_name},#{file_music_author_name},#{music_type}
+        ,#{music_data},#{music_cpy_music_data},#{music_ts},#{file_lyirc},#{music_index},default,#{is_play})
+    </insert>
+    <select id="getComent" parameterType="java.lang.Long" resultType="com.music_demo.entity.Comment">
+        select
+        A.id,music_id,profileint,`name`,after_review,pror_name,after_name,profile_text,click,publish_data,file_img
+        from
+        (
+        select
+        id,music_id,profileint,after_review,pror_name,after_name,profile_text,click,publish_data
+        from
+        `comment` where music_id=#{music_id}
+        order by click desc
+        )
+        A
+        INNER JOIN
+        `user_` as B
+        on
+        A.profileint= B.username
+    </select>
+    <insert id="setComent" useGeneratedKeys="true" keyProperty="id" parameterType="com.music_demo.entity.Comment">
+        insert
+        into comment
+        values(default,#{music_id},#{profileint},
+        #{after_review},#{pror_name},#{after_name},
+        #{profile_text},#{file_img},default,#{publish_data})
+    </insert>
+
+    <!--获取用户收藏信息  UserResultMap-->
+    <select id="getUserMusic" resultType="com.music_demo.entity.music" parameterType="java.util.Map">
+        SELECT
+        `username`,
+        `id`,
+        `file_music`,
+        `file_img`,
+        `music_name`,
+        `music_author_name`,
+        `file_music_author_name`,
+        `music_type`,
+        `music_data`,
+        `music_cpy_music_data`,
+        `music_ts`,
+        `file_lyirc`,
+        `music_index`,
+        `context`,
+        `is_plsy`
+        FROM
+        ( SELECT `music_id`, `username` FROM `user_music` WHERE `username` = #{username} ) A
+        RIGHT JOIN `music` B ON B.`id`=A.`music_id`
+        ${where}
+        ORDER BY
+        #{key} DESC
+        LIMIT #{cont},#{size}
+
+    </select>
+</mapper>

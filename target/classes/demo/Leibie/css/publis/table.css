@@ -1,0 +1,70 @@
+.title_b {
+    position: relative;
+    top: 10px;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+.title_type {
+    background-color: #05B0FF;
+}
+
+.but-extra {
+    background-color: #efefef;
+    border-radius: 0;
+
+}
+
+.page_index {
+    background-color: #e8e8e8;
+    height: 50px;
+}
+
+.align-page {
+    margin: 10px 370px;
+    display: inline-block;
+}
+
+.title_date {
+    background-color: #E0E0E0;
+
+    margin-bottom: 10px;
+}
+
+.title-text {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    color: #5b5c61;
+    display: flex;
+    margin: 0 5px;
+    padding-top: 10px;
+}
+
+.title-but {
+
+    margin: 15px 5px;
+    font-weight: bold;
+    width: 530px;
+    padding-bottom: 20px;
+
+}
+
+.date-title li {
+    float: left;
+    margin: 0 20px;
+
+}
+
+.date-title li > a {
+    color: #000000;
+}
+
+.date-title {
+    list-style: none;
+    float: right;
+
+}

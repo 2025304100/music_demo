@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymleaf.otg">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<link href="/Leibie/css/publis/table.css" type="text/css" rel="stylesheet"/>
+<!--模态窗口提示-->
+
+<body>
+<abbr hidden th:data-ip="${clientHost}" id="host" data-ip="#"></abbr>
+<div class="top">
+    <div class="title_type">
+        <div class="btn-group  ">
+            <button type="button" class="btn dropdown-toggle but-extra">推荐</button>
+            <button type="button" class="btn dropdown-toggle but-extra "
+                    data-toggle="dropdown">
+                <span class="caret"></span>
+                <span class="sr-only">切换下拉菜单</span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li th:each="type:${types}"><a href="#" target="title" th:href="${type.page}"
+                                               th:text="${type.musictypeZh}"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="title_date">
+        <a class="title-text">范围搜索</a>
+        <div class="title-but">
+            <a>时间搜索:</a>
+            <ul class="date-title">
+                <li th:each="date:${dates}"><a href="javascript:return;" target="title" th:href="${date.path}"
+                                               th:text="${date.title}">2020</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<iframe frameborder="0" width="1000px" class="iftitle" name="title" id="title" src="/music/100000/1/0" scrolling="no"
+        allowfullscreen="true"></iframe>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">提示</h4>
+            </div>
+            <div class="modal-body" id="body_ts">点击关闭按钮检查事件功能。</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--药引子-->
+<a data-toggle="modal" data-target="#myModal"></a>
+</body>
+<style>
+    .iftitle {
+        border: none;
+        overflow: hidden;
+
+
+    }
+</style>
+<script>
+    function heig(height) {
+        let ifr = document.getElementById("title");
+        ifr.height = height;
+    }
+
+    //域名配置
+    function plays(cont) {
+        //二级跳转  只精确到域名
+        window.parent.postMessage(cont, $("#host").data("ip"))
+    }
+
+    function addCollects(im) {
+        let id = im.getAttribute("data-id");
+        $.get("/role/add_collect/" + id,
+            function (data) {
+                if (data == 200) {
+                    $("#body_ts").html("收藏成功!");
+                    im.innerHTML = "已收藏";
+                    im.setAttribute("onclick", "removeCollect(this)");
+                    $("#myModal").modal("show");
+                } else {
+                    $("#body_ts").html("收藏失败;请联系管理员!");
+                    $("#myModal").modal("show");
+                }
+            });
+    }
+
+    function removeCollects(im) {
+        let id = im.getAttribute("data-id");
+        $.get("/role/remove_collect/" + id,
+            function (data) {
+                if (data == 200) {
+                    $("#body_ts").html("除去收藏成功!");
+                    im.innerHTML = "未收藏";
+                    im.setAttribute("onclick", "addCollect(this)");
+                    $("#myModal").modal("show");
+                } else {
+                    $("#body_ts").html("除去收藏失败;请联系管理员!");
+                    $("#myModal").modal("show");
+                }
+            });
+    }
+
+    $(function () {
+
+
+        }
+    )
+</script>
+</html>

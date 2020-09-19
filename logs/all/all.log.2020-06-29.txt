@@ -1,0 +1,166 @@
+2020-06-29 00:40:35  [ Thread-5:0 ] - [ INFO ]  cpu负载率:92 
+2020-06-29 00:41:33  [ Thread-5:0 ] - [ INFO ]  cpu负载率:87 
+2020-06-29 00:41:42  [ Thread-5:8837 ] - [ INFO ]  cpu负载率:91 
+2020-06-29 00:44:13  [ http-nio-8080-exec-4:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:46 
+2020-06-29 00:46:59  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:38 
+2020-06-29 00:47:34  [ http-nio-8080-exec-3:35115 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 00:47:35  [ http-nio-8080-exec-3:36104 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:35 
+2020-06-29 00:49:50  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:44 
+2020-06-29 00:51:10  [ Thread-5:0 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 00:51:18  [ http-nio-8080-exec-4:8092 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:41 
+2020-06-29 01:05:29  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 01:10:32  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:44 
+2020-06-29 01:11:16  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:44 
+2020-06-29 01:11:18  [ http-nio-8080-exec-4:2157 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:43 
+2020-06-29 01:11:19  [ http-nio-8080-exec-6:2639 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:49 
+2020-06-29 01:11:19  [ http-nio-8080-exec-10:3205 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:37 
+2020-06-29 01:11:20  [ http-nio-8080-exec-5:4034 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:45 
+2020-06-29 01:11:56  [ Thread-5:0 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 01:12:05  [ http-nio-8080-exec-2:8937 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:36 
+2020-06-29 01:12:35  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:45 
+2020-06-29 01:12:59  [ Thread-5:0 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 01:13:03  [ http-nio-8080-exec-7:4127 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:48 
+2020-06-29 01:13:43  [ http-nio-8080-exec-6:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:42 
+2020-06-29 01:14:15  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:36 
+2020-06-29 01:15:39  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:40 
+2020-06-29 01:16:01  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:43 
+2020-06-29 01:18:09  [ http-nio-8080-exec-4:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:36 
+2020-06-29 01:18:35  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:47 
+2020-06-29 01:19:06  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:35 
+2020-06-29 01:19:09  [ http-nio-8080-exec-4:2677 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:26 
+2020-06-29 01:20:32  [ http-nio-8080-exec-5:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:43 
+2020-06-29 01:21:33  [ http-nio-8080-exec-2:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:56 
+2020-06-29 01:21:35  [ http-nio-8080-exec-7:1467 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:36 
+2020-06-29 01:21:35  [ http-nio-8080-exec-8:2316 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 01:23:45  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:45 
+2020-06-29 01:25:46  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:35 
+2020-06-29 01:36:43  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:41 
+2020-06-29 10:28:12  [ http-nio-8080-exec-10:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:49 
+2020-06-29 10:28:40  [ http-nio-8080-exec-10:28783 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:45 
+2020-06-29 10:31:15  [ http-nio-8080-exec-5:183615 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:42 
+2020-06-29 10:32:36  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:40 
+2020-06-29 10:32:40  [ http-nio-8080-exec-3:3436 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:36 
+2020-06-29 10:32:41  [ http-nio-8080-exec-4:4426 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:27 
+2020-06-29 10:32:41  [ http-nio-8080-exec-5:4954 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:41 
+2020-06-29 10:32:42  [ http-nio-8080-exec-6:6236 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:38 
+2020-06-29 10:32:43  [ http-nio-8080-exec-7:6726 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:38 
+2020-06-29 10:43:48  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:53 
+2020-06-29 10:44:50  [ http-nio-8080-exec-4:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:46 
+2020-06-29 10:46:38  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 10:46:39  [ http-nio-8080-exec-1:1566 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:36 
+2020-06-29 10:46:56  [ http-nio-8080-exec-3:18310 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 10:46:58  [ http-nio-8080-exec-5:19829 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:38 
+2020-06-29 10:47:05  [ http-nio-8080-exec-7:27717 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:43 
+2020-06-29 10:47:08  [ http-nio-8080-exec-5:30115 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:44 
+2020-06-29 10:56:15  [ http-nio-8080-exec-8:577702 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:108 
+2020-06-29 10:58:14  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 10:58:20  [ http-nio-8080-exec-1:6745 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:42 
+2020-06-29 10:59:31  [ http-nio-8080-exec-6:77868 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:87 
+2020-06-29 11:00:22  [ http-nio-8080-exec-1:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:43 
+2020-06-29 14:41:47  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:42 
+2020-06-29 14:43:55  [ http-nio-8080-exec-1:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:41 
+2020-06-29 14:44:02  [ http-nio-8080-exec-2:6952 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:40 
+2020-06-29 14:45:29  [ http-nio-8080-exec-1:93670 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:42 
+2020-06-29 14:45:32  [ http-nio-8080-exec-3:96537 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:49 
+2020-06-29 14:45:33  [ http-nio-8080-exec-4:97708 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:40 
+2020-06-29 14:45:34  [ http-nio-8080-exec-6:98788 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 14:45:37  [ http-nio-8080-exec-4:101856 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:40 
+2020-06-29 14:45:39  [ http-nio-8080-exec-7:103615 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:35 
+2020-06-29 14:46:05  [ http-nio-8080-exec-9:129965 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:43 
+2020-06-29 14:46:08  [ http-nio-8080-exec-2:132504 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:37 
+2020-06-29 14:46:10  [ http-nio-8080-exec-1:134634 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:37 
+2020-06-29 14:46:13  [ http-nio-8080-exec-7:138355 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 14:46:58  [ http-nio-8080-exec-9:183216 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:40 
+2020-06-29 14:46:59  [ http-nio-8080-exec-10:184196 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:38 
+2020-06-29 14:47:00  [ http-nio-8080-exec-2:185055 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:37 
+2020-06-29 14:47:01  [ http-nio-8080-exec-3:185914 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:37 
+2020-06-29 14:47:02  [ http-nio-8080-exec-1:186945 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 14:50:05  [ http-nio-8080-exec-4:370296 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:82 
+2020-06-29 14:50:06  [ http-nio-8080-exec-6:370804 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:33 
+2020-06-29 14:50:07  [ http-nio-8080-exec-8:371985 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 15:46:50  [ http-nio-8080-exec-1:3774923 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:38 
+2020-06-29 15:55:19  [ http-nio-8080-exec-4:4283462 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:80 
+2020-06-29 15:55:45  [ http-nio-8080-exec-5:4309561 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:45 
+2020-06-29 16:02:42  [ http-nio-8080-exec-8:4727217 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:41 
+2020-06-29 18:25:07  [ Thread-5:13272283 ] - [ INFO ]  cpu负载率:93 
+2020-06-29 19:13:11  [ Thread-5:16155664 ] - [ INFO ]  cpu负载率:87 
+2020-06-29 20:56:00  [ Thread-5:0 ] - [ INFO ]  cpu负载率:88 
+2020-06-29 21:07:32  [ http-nio-8080-exec-4:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:43 
+2020-06-29 21:11:38  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:42 
+2020-06-29 21:14:15  [ http-nio-8080-exec-3:0 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 22:28:05  [ Thread-5:1 ] - [ INFO ]  cpu负载率:90 
+2020-06-29 23:13:33  [ http-nio-8080-exec-10:2727811 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:42 
+2020-06-29 23:13:48  [ http-nio-8080-exec-10:2742365 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:44 
+2020-06-29 23:13:56  [ http-nio-8080-exec-8:2750208 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:39 
+2020-06-29 23:13:57  [ http-nio-8080-exec-10:2751579 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:41 
+2020-06-29 23:13:59  [ http-nio-8080-exec-7:2753918 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:41 
+2020-06-29 23:14:02  [ http-nio-8080-exec-10:2756766 ] - [ INFO ]  class com.music_demo.service_model.music2.proxy.Proxy访问的时间:40 
+2020-06-29 23:37:57  [ Thread-5:4192137 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 23:37:59  [ Thread-5:4193522 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 23:38:00  [ Thread-5:4194933 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 23:38:02  [ Thread-5:4196404 ] - [ INFO ]  cpu负载率:98 
+2020-06-29 23:38:03  [ Thread-5:4198105 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 23:38:05  [ Thread-5:4199420 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 23:38:06  [ Thread-5:4200870 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:38:08  [ Thread-5:4202334 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:38:09  [ Thread-5:4204135 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 23:38:11  [ Thread-5:4205414 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:38:12  [ Thread-5:4206838 ] - [ INFO ]  cpu负载率:96 
+2020-06-29 23:38:14  [ Thread-5:4208189 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:38:15  [ Thread-5:4209485 ] - [ INFO ]  cpu负载率:94 
+2020-06-29 23:38:16  [ Thread-5:4210598 ] - [ INFO ]  cpu负载率:95 
+2020-06-29 23:38:17  [ Thread-5:4211754 ] - [ INFO ]  cpu负载率:98 
+2020-06-29 23:38:18  [ Thread-5:4212865 ] - [ INFO ]  cpu负载率:97 
+2020-06-29 23:38:19  [ Thread-5:4214060 ] - [ INFO ]  cpu负载率:98 
+2020-06-29 23:38:21  [ Thread-5:4215452 ] - [ INFO ]  cpu负载率:95 
+2020-06-29 23:38:22  [ Thread-5:4216967 ] - [ INFO ]  cpu负载率:98 
+2020-06-29 23:38:23  [ Thread-5:4218045 ] - [ INFO ]  cpu负载率:96 
+2020-06-29 23:40:00  [ Thread-5:4315125 ] - [ INFO ]  cpu负载率:98 
+2020-06-29 23:45:20  [ Thread-5:4634737 ] - [ INFO ]  cpu负载率:95 
+2020-06-29 23:45:24  [ Thread-5:4638439 ] - [ INFO ]  cpu负载率:96 
+2020-06-29 23:45:25  [ Thread-5:4639739 ] - [ INFO ]  cpu负载率:93 
+2020-06-29 23:45:26  [ Thread-5:4640984 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:45:28  [ Thread-5:4642599 ] - [ INFO ]  cpu负载率:94 
+2020-06-29 23:45:30  [ Thread-5:4644155 ] - [ INFO ]  cpu负载率:91 
+2020-06-29 23:45:31  [ Thread-5:4645240 ] - [ INFO ]  cpu负载率:93 
+2020-06-29 23:45:32  [ Thread-5:4646690 ] - [ INFO ]  cpu负载率:96 
+2020-06-29 23:45:33  [ Thread-5:4647901 ] - [ INFO ]  cpu负载率:88 
+2020-06-29 23:45:34  [ Thread-5:4649036 ] - [ INFO ]  cpu负载率:98 
+2020-06-29 23:45:37  [ Thread-5:4651302 ] - [ INFO ]  cpu负载率:90 
+2020-06-29 23:45:38  [ Thread-5:4652936 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:45:40  [ Thread-5:4654983 ] - [ INFO ]  cpu负载率:95 
+2020-06-29 23:45:42  [ Thread-5:4656347 ] - [ INFO ]  cpu负载率:91 
+2020-06-29 23:45:43  [ Thread-5:4657422 ] - [ INFO ]  cpu负载率:95 
+2020-06-29 23:45:44  [ Thread-5:4658685 ] - [ INFO ]  cpu负载率:88 
+2020-06-29 23:45:45  [ Thread-5:4659984 ] - [ INFO ]  cpu负载率:87 
+2020-06-29 23:45:47  [ Thread-5:4661243 ] - [ INFO ]  cpu负载率:98 
+2020-06-29 23:45:48  [ Thread-5:4662583 ] - [ INFO ]  cpu负载率:90 
+2020-06-29 23:45:49  [ Thread-5:4663682 ] - [ INFO ]  cpu负载率:87 
+2020-06-29 23:45:50  [ Thread-5:4664890 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 23:45:51  [ Thread-5:4666001 ] - [ INFO ]  cpu负载率:95 
+2020-06-29 23:45:53  [ Thread-5:4667247 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:45:54  [ Thread-5:4668634 ] - [ INFO ]  cpu负载率:100 
+2020-06-29 23:45:55  [ Thread-5:4669885 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:45:57  [ Thread-5:4671264 ] - [ INFO ]  cpu负载率:93 
+2020-06-29 23:45:58  [ Thread-5:4672411 ] - [ INFO ]  cpu负载率:91 
+2020-06-29 23:45:59  [ Thread-5:4673794 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:46:01  [ Thread-5:4675171 ] - [ INFO ]  cpu负载率:89 
+2020-06-29 23:46:02  [ Thread-5:4676738 ] - [ INFO ]  cpu负载率:92 
+2020-06-29 23:46:03  [ Thread-5:4677809 ] - [ INFO ]  cpu负载率:93 
+2020-06-29 23:46:05  [ Thread-5:4679334 ] - [ INFO ]  cpu负载率:98 
+2020-06-29 23:46:06  [ Thread-5:4681104 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:46:09  [ Thread-5:4683361 ] - [ INFO ]  cpu负载率:95 
+2020-06-29 23:46:10  [ Thread-5:4684424 ] - [ INFO ]  cpu负载率:86 
+2020-06-29 23:46:11  [ Thread-5:4685612 ] - [ INFO ]  cpu负载率:91 
+2020-06-29 23:46:13  [ Thread-5:4687913 ] - [ INFO ]  cpu负载率:97 
+2020-06-29 23:46:15  [ Thread-5:4690122 ] - [ INFO ]  cpu负载率:89 
+2020-06-29 23:46:17  [ Thread-5:4691404 ] - [ INFO ]  cpu负载率:90 
+2020-06-29 23:46:18  [ Thread-5:4692696 ] - [ INFO ]  cpu负载率:86 
+2020-06-29 23:46:19  [ Thread-5:4693785 ] - [ INFO ]  cpu负载率:95 
+2020-06-29 23:46:22  [ Thread-5:4696157 ] - [ INFO ]  cpu负载率:99 
+2020-06-29 23:46:25  [ Thread-5:4699227 ] - [ INFO ]  cpu负载率:91 
+2020-06-29 23:46:26  [ Thread-5:4700829 ] - [ INFO ]  cpu负载率:88 
+2020-06-29 23:46:54  [ Thread-5:4728765 ] - [ INFO ]  cpu负载率:88 
+2020-06-29 23:47:01  [ Thread-5:4735436 ] - [ INFO ]  cpu负载率:88 
+2020-06-29 23:47:04  [ Thread-5:4738950 ] - [ INFO ]  cpu负载率:88 
+2020-06-29 23:47:35  [ Thread-5:4769816 ] - [ INFO ]  cpu负载率:88 

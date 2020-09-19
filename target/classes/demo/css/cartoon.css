@@ -1,0 +1,37 @@
+.sty_img {
+    width: 0px;
+    height: 0px;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 1;
+
+    opacity: 1;
+    transform: all linear 1000ms;
+    -o-transition: all linear 1000ms;
+    -moz-transition: all linear 1000ms;
+    -webkit-transition: all linear 1000ms;
+    transition-timing-function: cubic-bezier(0, 1.11, 1, .99);
+}
+
+#ty0 {
+    background-image: url(img/4ebd51a34992dfa6cb9df96e1cbf6c0f.jpeg);
+}
+
+#ty1 {
+    background-image: url(img/7ea5a41dae222bd21eb708b67f397c05.jpg);
+}
+
+#ty2 {
+    background-image: url(img/be546ad55cf65cf1e25ddf12d38785fa.jpeg);
+}
+
+.v-loact-tom {
+
+    z-index: 9;
+    width: 1000px;
+    height: 300px;
+    opacity: 1;
+
+}
+			
+			
